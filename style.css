@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ruluko', sans-serif;
+}
+
+.Fondo{
+ position: absolute;;
+width: 100%;
+height: 100%;
+background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
+}
+/* TITULO */
+.titulo {
+  position: absolute;
+width: 289px;
+height: 83px;
+left: 550px;
+top: 61px;
+font-size: 60px;
+line-height: 100px;
+font-feature-settings: 'kern' off;
+color:rgba(133, 85, 246, 0.49);
+;
+}
+
+/* Ilustracion  */
+
+
+.img{
+
+  animation: ilustrationAnimate ease-in 1s infinite alternate;
+}
+@keyframes ilustrationAnimate {
+  0% {
+    transform: scale(1);
+  } 100% {
+    transform: scale(1.04);
+  }
+}
+.Ilustracion {
+  
+position: fixed;
+width: 484px;
+height: 314px;
+left: 20px;
+top: 87px;
+
+border-radius: 50px;
+}
+/*YOUTUBE*/
+.YT {
+position: absolute;
+width: 113px;
+height: 26px;
+left: 250px;
+top: 25px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+.LogoYT {
+ position: absolute;
+width: 71px;
+height: 47px;
+left: 160px;
+top: 14px;
+
+}
+.Youtube {
+
+  
+
+background: #96E1E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+
+
+position: absolute;
+width: 599px;
+height: 81px;;
+left: 520px;
+top: 144px;
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 43px 0px;
+
+}
+/*GITHUB*/
+
+/* link     */
+.GH {
+
+position: absolute;
+width: 317px;
+height: 29px;
+left: 250px;
+top: 28px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+ 
+.LogoGH {
+
+  position: absolute;
+width: 65px;
+height: 60px;
+left: 162px;
+top: 10px;
+
+background: url(Imagenes/LogoGITHUB.png);
+
+}
+
+/* cuadro de fondo/boton */
+.Github {
+  position: absolute;
+width: 599px;
+height: 81px;
+left: 515px;
+top: 312px;
+
+background: #93E5E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+}
+
+/* INSTAGRAM  */
+
+/* Cuadro/Boton */
+
+.Instagram {
+position: absolute;
+width: 599px;
+height: 81px;
+left: 515px;
+top: 436px;
+
+background: #93E5E7;
+border: 1px solid #27CEE4;
+box-sizing: border-box;
+border-radius: 50px;
+}
+  /* link */
+  .IG {
+
+    position: absolute;
+width: 127px;
+height: 30px;
+left: 250px;
+top: 25px;
+
+font-family: Ruluko;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+  }
+
+  .LogoIG {
+    position: absolute;
+width: 59px;
+height: 64px;
+left: 162px;
+top: 10px;
+
+background: url(Imagenes/LogoINsta.jpg);
+border-radius: 97px;
+  }
